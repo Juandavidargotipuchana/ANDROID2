@@ -2,5 +2,6 @@
     <string name="app_name">Market</string>
     <string name="lbl_email">E-mail</string>
     <string name="lbl_pasword">pasword</string>
-
+    <string name="btn_signing_">signing</string>
+    <string name="btn_signup_">signup</string>
 </resources>
