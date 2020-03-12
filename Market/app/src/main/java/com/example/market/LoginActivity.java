@@ -21,7 +21,8 @@ public class LoginActivity extends AppCompatActivity {
      startActivity(actHome);
  }
     public void btnsignup(View view){
-
+        Intent actRegister = new Intent(this, RegisterActivity.class);
+        startActivity(actRegister);
         //Toast.makeText(this, "your have presed sign up Button ", Toast.LENGTH_SHORT).show();
     }
 }

@@ -5,4 +5,9 @@
     <string name="btn_signing_">signing</string>
     <string name="btn_signup_">signup</string>
     <string name="lbl_ActHOME_">HOME</string>
+    <string name="lbl_actRegister_">Register</string>
+
+
+
+
 </resources>
