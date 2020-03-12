@@ -15,7 +15,7 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
+            android:layout_width="372dp"
             android:layout_height="wrap_content"
             app:srcCompat="@mipmap/ic_launcher" />
 
@@ -51,13 +51,19 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@android:dimen/app_icon_size"
+            android:background="@color/color_btn_signup"
+            android:onClick="btnlogin"
             android:text="@string/btn_signing_" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/color_btn_signing"
+            android:onClick="btnsignup"
             android:text="@string/btn_signup_" />
+
 
     </LinearLayout>
 </RelativeLayout>
